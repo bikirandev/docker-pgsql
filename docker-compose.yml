@@ -9,7 +9,7 @@ services:
       POSTGRES_PASSWORD:  ${POSTGRES_PASSWORD}
       POSTGRES_INITDB_ARGS: ${POSTGRES_INITDB_ARGS}
     ports:
-      - "127.0.0.1:${POSTGRES_PORT}:5432"  # Only bind to localhost
+      - "${POSTGRES_PORT}:5432"  # Allow remote connections
     volumes:
       - postgres_data:/var/lib/postgresql
     user: postgres  # PostgreSQL specific user
