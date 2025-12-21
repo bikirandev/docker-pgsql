@@ -1,0 +1,35 @@
+# Environment variables
+.env
+
+# SQL dumps and backups
+*.sql
+backup/
+dumps/
+
+# Docker volumes (if mounted locally)
+data/
+postgres_data/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
