@@ -349,7 +349,7 @@ If you encounter any issues or have questions:
 
 ## 📄 License
 
-MIT License - see the [LICENSE](https://github.com/bikirandev/docker-pgsql/blob/master/LICENSE) file for details.
+MIT License - see the [LICENSE](https://github.com/bikirandev/docker-pgsql/blob/main/LICENSE) file for details.
 
 ## 👨‍💻 Author
 
